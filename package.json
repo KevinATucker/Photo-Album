@@ -1,5 +1,5 @@
 {
-  "name": "Photo-Album",
+  "name": "photo-album",
   "version": "1.0.0",
   "description": "logs titles and ids of photos",
   "main": "src/index.js",
