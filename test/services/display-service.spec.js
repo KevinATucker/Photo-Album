@@ -23,4 +23,12 @@ describe('display-service', () => {
         expect(console.log).toHaveBeenCalledTimes(photos.length);
         expect(console.log).toHaveBeenCalledWith(`[${photo.id}] ${photo.title}`)
     })
+
+    describe('There are no photos', () => {
+        test('it should log an error message', () => {
+            displayPhotos([]);
+
+            expect(console.log).toHaveBeenCalledWith('There were no photos for that album number.');
+        });
+    });
 });
