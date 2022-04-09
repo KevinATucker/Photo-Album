@@ -4,7 +4,7 @@
   "description": "logs titles and ids of photos",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest test"
+    "test": "jest test --coverage"
   },
   "keywords": [],
   "author": "Kevin Tucker",

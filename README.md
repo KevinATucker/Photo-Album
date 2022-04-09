@@ -15,8 +15,8 @@ To add to it to your console run
 
 `npm install -g .`
 
-### Run the command
-You can run the command by running
+### Pull photos using the console app
+You can pull photos by running
 
 `photo-album 3`
 
