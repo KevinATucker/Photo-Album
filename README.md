@@ -8,7 +8,7 @@ A CLI that will pull ids and titles of specific albums of photos when an albumId
 
 ### Getting Started
 To setup the app
-- `nvm use` --If you don't have the current version of node it will need to be installed
+- `nvm use`    If you don't have the current version of node it will need to be installed
 - `npm install`
 
 To add to it to your console run
