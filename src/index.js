@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-(() => {
-    console.log("helloWorld");
-})();
+const {getPhotoAlbum} = require('./getPhotoAlbum.js');
+
+getPhotoAlbum();
